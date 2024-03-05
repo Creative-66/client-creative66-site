@@ -32,12 +32,12 @@ export default function ContactForm() {
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
-      setMessage(msg);
+
       reset();
     },
     onError: (msg, data) => {
       setIsSuccess(false);
-      setMessage(msg);
+
     },
   });
 
@@ -77,33 +77,33 @@ export default function ContactForm() {
               <div className="flex flex-col sm:flex-row gap-2 mb-2">
                 {/* <input type="email" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Subject…" aria-label="Your best email…" /> */}
                 <div className="name input w-full">
-                <input id="name-form" type="text" name="name" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Full name..." required {...register("name", {
+                <input id="name-form" type="text" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Full name..." required {...register("name", {
               required: "Full name is required",
               maxLength: 25,
             })} />
                 </div>
                 <div className="email input w-full">
-                <input id="email-form" type="email" name="email" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Email address..." required {...register("email", {
+                <input id="email-form" type="email" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Email address..." required {...register("email", {
               required: "Valid email is required",
               maxLength: 80,
             })} />
                 </div>
                 </div>
                 <div className="mb-2">
-                <select name="subject" className="w-full bg-purple-700 border-purple-500 border rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white" placeholder="teste" required {...register("subject", {
+                <select className="w-full bg-purple-700 border-purple-500 border rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white" placeholder="teste" required {...register("subject", {
               required: "Subject is required",
             })}>
               <option value="" key="subject" selected hidden>Select a subject</option>
                 {menuItems.map((menu_items,index) => {
                   return (
-                    <option className=" bg-purple-500 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 placeholder-purple-400" value={index} key={index}>{menu_items}</option>
+                    <option className=" bg-purple-500 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 placeholder-purple-400" value={menu_items} key={index}>{menu_items}</option>
                   )
                  }
                  )}
               </select>
 </div>
                 <div className="message form">
-                <textarea id="message-form" type="text-area" rows="4" name="message" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Message for us ..." required {...register("text", {
+                <textarea id="message-form" rows={4} className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Message for us ..." required {...register("text", {
               required: "Message is required",
               maxLength: 2500,
             })}/>
