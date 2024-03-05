@@ -1,9 +1,24 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
+import Script from 'next/script'
 
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
+      <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-SFC2HLLLG1"
+        />
+      <Script id="google-analytics">
+          {`
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SFC2HLLLG1');
+          `}
+        </Script>
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
@@ -17,7 +32,7 @@ export default function Header() {
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow">
+          <nav className="md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               {/* <li>
@@ -29,14 +44,14 @@ export default function Header() {
                 </Link>
               </li> */}
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="#contact-us" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                   Contact us
                 </Link>
               </li>
             </ul>
           </nav>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
 
         </div>
       </div>
