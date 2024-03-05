@@ -108,7 +108,7 @@ export default function ContactForm() {
               maxLength: 2500,
             })}/>
                 </div>
-                <div className="h-captcha" data-captcha="true"></div>
+                {/* <div className="h-captcha" data-captcha="true"></div> */}
                 <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow w-full mt-1" type="submit">Send</button>
                 
                 {isSubmitSuccessful && isSuccess && (
