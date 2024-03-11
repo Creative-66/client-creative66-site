@@ -27,7 +27,7 @@ export default function ContactForm() {
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Creative66",
+      from_name: "creative66",
       // subject: "New contact from Website",
     },
     onSuccess: (msg, data) => {
@@ -41,7 +41,7 @@ export default function ContactForm() {
     },
   });
 
-  const menuItems = ["Custom Maps","Server Scripts/Plugins","Server Configs","Others"];
+  const menuItems = ["custom maps","server scripts/plugins","server configs","others"];
 
   return (
     <section>
@@ -67,8 +67,8 @@ export default function ContactForm() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2" id="contact-us">
-              <h3 className="h3 text-white mb-0">Contact us</h3>
-              <p className="text-purple-200 text-lg italic">Send us a message and get a quickly response :D</p>
+              <h3 className="h3 text-white mb-0">contact us</h3>
+              <p className="text-purple-200 text-lg italic">send us a message and get a quickly response</p>
             </div>
 
             {/* CTA form */}
@@ -77,13 +77,13 @@ export default function ContactForm() {
               <div className="flex flex-col sm:flex-row gap-2 mb-2">
                 {/* <input type="email" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Subject…" aria-label="Your best email…" /> */}
                 <div className="name input w-full">
-                <input id="name-form" type="text" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Full name..." required {...register("name", {
+                <input id="name-form" type="text" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="full name..." required {...register("name", {
               required: "Full name is required",
               maxLength: 25,
             })} />
                 </div>
                 <div className="email input w-full">
-                <input id="email-form" type="email" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Email address..." required {...register("email", {
+                <input id="email-form" type="email" className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="email address..." required {...register("email", {
               required: "Valid email is required",
               maxLength: 80,
             })} />
@@ -103,13 +103,13 @@ export default function ContactForm() {
               </select>
 </div>
                 <div className="message form">
-                <textarea id="message-form" rows={4} className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Message for us ..." required {...register("text", {
+                <textarea id="message-form" rows={4} className="w-full bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="message for us ..." required {...register("text", {
               required: "Message is required",
               maxLength: 2500,
             })}/>
                 </div>
                 {/* <div className="h-captcha" data-captcha="true"></div> */}
-                <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow w-full mt-1" type="submit">Send</button>
+                <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow w-full mt-1" type="submit">send</button>
                 
                 {isSubmitSuccessful && isSuccess && (
         <div className="mt-3 text-sm text-center text-green-500">
