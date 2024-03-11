@@ -14,8 +14,8 @@ export default function Zigzag() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">what we do</div>
             <h1 className="h2 mb-4">unlimited solutions</h1>
-            <p className="text-xl text-gray-400">our team has high knowledge. more than 10 years working with counter-strike.</p>
-            <p className="text-xl text-gray-400">we build with quality.</p>
+            <p className="text-xl text-gray-400">our team has more than 10 years working with counter-strike.</p>
+            {/* <p className="text-xl text-gray-400">we build with quality.</p> */}
           </div>
 
           {/* Items */}
