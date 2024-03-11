@@ -24,7 +24,7 @@ export default function Showcases() {
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image className="rounded-mid" src={mibrMap} width={332} max-height={96} />
+                  <Image className="rounded-mid" src={mibrMap} alt="mibr" width={332} max-height={96} />
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">1v1/2v2. fully customized map with surf ramp, toten for health regen, custom soccer rounds and ambient sound.</blockquote>
@@ -40,7 +40,7 @@ export default function Showcases() {
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image className="rounded-mid" src={monsterMap} width={332} max-height={96} />
+                  <Image className="rounded-mid" src={monsterMap} alt="monster" width={332} max-height={96} />
 
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default function Showcases() {
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="400">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image className="rounded-mid" src={itauMap} width={332} max-height={96} />
+                  <Image className="rounded-mid" src={itauMap} alt="itau" width={332} max-height={96} />
 
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function Showcases() {
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image className="rounded-mid" src={niveaMap} width={332} max-height={96} />
+                  <Image className="rounded-mid" src={niveaMap} alt="nivea" width={332} max-height={96} />
 
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function Showcases() {
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image className="rounded-mid" src={egMap} width={332} max-height={96} />
+                  <Image className="rounded-mid" src={egMap} alt="eg" width={332} max-height={96} />
 
                 </div>
               </div>
@@ -112,7 +112,7 @@ export default function Showcases() {
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="400">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image className="rounded-mid" src={intelMap} width={332} max-height={96} />
+                  <Image className="rounded-mid" src={intelMap} alt="intel" width={332} max-height={96} />
                   
                 </div>
               </div>
