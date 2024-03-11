@@ -93,7 +93,7 @@ export default function ContactForm() {
                 <select className="w-full bg-purple-700 border-purple-500 border rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 text-white" placeholder="teste" required {...register("subject", {
               required: "Subject is required",
             })}>
-              <option value="" key="subject" selected hidden>Select a subject</option>
+              <option value="" key="subject" selected hidden>select a subject</option>
                 {menuItems.map((menu_items,index) => {
                   return (
                     <option className=" bg-purple-500 border border-purple-500 focus:border-purple-300 rounded-sm py-3 mb-2 sm:mb-0 sm:mr-2 placeholder-purple-400" value={menu_items} key={index}>{menu_items}</option>
