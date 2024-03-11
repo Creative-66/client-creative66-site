@@ -1,13 +1,13 @@
 export const metadata = {
-  title: 'Creative66 - CS Maps, Plugins & Configs',
-  description: 'Creative66 - Place where awesome Counter-Strike projects are made.',
+  title: 'custom maps, plugins & configs - creative66',
+  description: 'creative66 - place where awesome Counter-Strike projects are made.',
 }
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import ContactForm from '@/components/contact'
 import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import Showcases from '@/components/showcases'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       {/* <Features /> */}
       <Zigzag />
-      <Testimonials />
+      <Showcases />
       <ContactForm />
     </>
   )

@@ -12,10 +12,10 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">What we do</div>
-            <h1 className="h2 mb-4">Unlimited solutions</h1>
-            <p className="text-xl text-gray-400">Our team has high knowledge. More than 10 years working with Counter-Strike.</p>
-            <p className="text-xl text-gray-400">We build with quality.</p>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">what we do</div>
+            <h1 className="h2 mb-4">unlimited solutions</h1>
+            <p className="text-xl text-gray-400">our team has high knowledge. more than 10 years working with counter-strike.</p>
+            <p className="text-xl text-gray-400">we build with quality.</p>
           </div>
 
           {/* Items */}
@@ -30,27 +30,27 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2 ">Counter-Strike</div>
-                  <h3 className="h3 mb-3" id="maps">Maps</h3>
-                  <p className="text-xl text-gray-400 mb-4">We build maps for all CS modes: 1v1, Wingman, 5v5 competitive, Time Trial, Challenges and many others fully customized. </p>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2 ">counter-strike</div>
+                  <h3 className="h3 mb-3" id="maps">maps</h3>
+                  <p className="text-xl text-gray-400 mb-4">we build maps for all modes: 1v1, wingman, 5v5 competitive, time trial, challenges and many others fully customized. </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Level designers with a bunch of published maps in Steam Workshop</span>
+                      <span>level designers with a bunch of published maps in steam workshop</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Professionalism and criativity</span>
+                      <span>professionalism and criativity</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Source2</span>
+                      <span>source2 experience</span>
                     </li>
                   </ul>
                 </div>
@@ -66,27 +66,27 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Counter-Strike</div>
-                  <h3 className="h3 mb-3" id="server-plugins">Server Plugins</h3>
-                  <p className="text-xl text-gray-400 mb-4">You need private plugins with specific functions for your server? We build!</p>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2 ">counter-strike</div>
+                  <h3 className="h3 mb-3" id="server-plugins">server plugins</h3>
+                  <p className="text-xl text-gray-400 mb-4">you need private plugins with specific functions for your server? we build!</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Full stack developers</span>
+                      <span>full stack developers</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Most recent technologies</span>
+                      <span>most recent technologies</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Better delivery: you always have access to source code</span>
+                      <span>better delivery: you always have access to source code</span>
                     </li>
                   </ul>
                 </div>
@@ -102,15 +102,15 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Counter-Strike</div>
-                  <h3 className="h3 mb-3" id="server-configs">Server Configurations</h3>
-                  <p className="text-xl text-gray-400 mb-4">You want a server configured from scratch by experiencied professionals? We are here for you!</p>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2 ">counter-strike</div>
+                  <h3 className="h3 mb-3" id="server-configs">server configurations</h3>
+                  <p className="text-xl text-gray-400 mb-4">you want a server configured from scratch by professionals? we are here for you!</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Configs for every CS gamemode (1v1, Mix/Pug, Tournaments, Arms Race, Danger Zone, AWP...) <span className="italic">[except zombie modes]</span></span>
+                      <span>configs for every cs gamemode (1v1, mix/pug, tournaments, arms race, danger zone, awp...) <span className="italic">[except zombie modes]</span></span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -122,7 +122,7 @@ export default function Zigzag() {
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Full customized for your needs</span>
+                      <span>full customized for your needs</span>
                     </li>
                   </ul>
                 </div>
