@@ -99,7 +99,7 @@ export default function Showcases() {
 
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">Time trial. finish the map with the lowest time and win. 7 differents zones, with bonus coins between them.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">time trial. finish the map with the lowest time and win. 7 differents zones, with bonus coins between them.</blockquote>
               <div className="flex text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic mr-1">Evil Geniuses</cite> - <a className="flex items-center ml-1 text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2601972945" target='_blank'>workshop
                   <svg className="ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 128 128">

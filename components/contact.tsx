@@ -1,4 +1,3 @@
-
 'use client'
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
@@ -11,9 +10,6 @@ export default function ContactForm() {
     register,
     handleSubmit,
     reset,
-    watch,
-    control,
-    setValue,
     formState: { errors, isSubmitSuccessful, isSubmitting },
   } = useForm({
     mode: "onTouched",
@@ -121,10 +117,7 @@ export default function ContactForm() {
           {message || "Something went wrong. Please try later."}
         </div>
       )}
-                {/* <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow w-full mt-1" href="mailto:contact@creative66.com">Send</a> */}
               </div>
-              {/* Success message */}
-              {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
             </form>
 
           </div>
