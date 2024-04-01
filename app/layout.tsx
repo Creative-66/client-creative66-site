@@ -3,7 +3,6 @@ import './css/style.css'
 import { Inter, Architects_Daughter } from 'next/font/google'
 
 import Header from '@/components/ui/header'
-import Banner from '@/components/banner'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,7 +29,6 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
-          {/* <Banner /> */}
         </div>
         <script src="https://web3forms.com/client/script.js" async defer></script>
       </body>
