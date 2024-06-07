@@ -108,13 +108,13 @@ export default function ContactForm() {
                 <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow w-full mt-1" type="submit">send</button>
                 
                 {isSubmitSuccessful && isSuccess && (
-        <div className="mt-3 text-sm text-center text-green-500">
-          {message || "Success. Message sent successfully"}
+        <div className="mt-3 text-sm text-center text-green-200">
+          {message || "✅ Success! Message sent successfully."}
         </div>
       )}
       {isSubmitSuccessful && !isSuccess && (
-        <div className="mt-3 text-sm text-center text-red-500">
-          {message || "Something went wrong. Please try later."}
+        <div className="mt-3 text-sm text-center text-red-200">
+          {message || "❌ Oops, error! Message not sent, please try again. If error persists, you can send it directly to <contact[@]creative66.com>"}
         </div>
       )}
               </div>
