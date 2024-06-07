@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://creative66.com/sitemap.xml
